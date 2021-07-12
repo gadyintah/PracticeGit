@@ -12,6 +12,12 @@ int main()
     int grade[1000];
     float numTemp;
 
+    string feeling = "";
+
+    cout << "How are you?" << endl;
+    getline(cin, feeling);
+    cout << feeling << endl << endl;
+
     in >> randNum;
 
     while(in >> numLoop){
@@ -41,5 +47,4 @@ int main()
 
 
     }
-    cout << "Hey";
 }
